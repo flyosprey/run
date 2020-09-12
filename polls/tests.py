@@ -84,6 +84,7 @@ class QuestionDetailViewTest(TestCase):
         self.assertContains(response, past_question.question_text)
 
 
+
 class QuestionModelTest(TestCase):
     def test_was_published_with_future_question(self):
         """
